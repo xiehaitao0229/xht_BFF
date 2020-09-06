@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue</title>
+</head>
+
+<body>
+    后端的数据：[[name]]
+    <!-- 
+    域名不同、端口不同、协议不同
+
+    跨域的解决方案：
+    - cors 让后端支持跨域
+    - nodejs 服务，后端请求是不存在跨域的
+    - nginx 
+    - 二级域名的话，可以设置 document.domain 改成一级同域名
+    - webSocket 在传输层请求，避免跨域
+    - postMessage 设置允许跨域 -->
+
+    <div id="app">
+        <input type="text" v-model="message" />
+        <div>{{ message }}</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="/js/index.js"></script>
+
+
+    <!-- 使用module方式来动态引入数据 -->
+<!--     <script type="module">
+        import('/js/data.js').then(res => {
+            console.log('res', res)
+        })
+    </script> -->
+
+
+    <script>
+            (function () {
+                var check = document.createElement("script");
+                if (!("noModule" in check) && "onbeforeload" in check) {
+                    var support = false;
+                    document.addEventListener(
+                        "beforeload",
+                        function (e) {
+                            if (e.target === check) {
+                                support = true;
+                            } else if (!e.target.hasAttribute("nomodule") || !support) {
+                                return;
+                            }
+                            e.preventDefault();
+                        },
+                        true
+                    );
+
+                    check.type = "module";
+                    check.src = ".";
+                    document.head.appendChild(check);
+                    check.remove();
+                }
+            })();
+    </script>
+
+    <!-- 如果浏览器不支持module方式的话就使用system.js来动态引入数据 -->
+    <script  src="https://cdn.staticfile.org/systemjs/6.5.1/system.js"></script>
+    <script >
+        /* 
+            在使用System.js之前是需要babel去把data数据编译成system.js的数据格式的
+            System.register([], function (_export, _context) {
+                "use strict";
+
+                var data;
+                return {
+                    setters: [],
+                    execute: function () {
+                    data = "前端的数据";
+
+                    _export("default", data);
+                    }
+                };
+            });
+
+         */
+        System.import('/js/data_bundle.js').then(res=>{
+            console.log('res', res)
+        }) 
+    </script>
+</body>
+
+</html>
