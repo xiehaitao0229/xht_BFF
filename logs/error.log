@@ -1,0 +1,44 @@
+[2020-09-07T09:11:16.299] [ERROR] cheese - TypeError: ctx.render2 is not a function
+    at _callee$ (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:9:30)
+    at tryCatch (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:14:103)
+    at _next (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:194)
+    at /Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:97
+    at actionIndex (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:74:29)
+[2020-09-07T09:11:45.996] [ERROR] xht - TypeError: ctx.render2 is not a function
+    at _callee$ (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:9:30)
+    at tryCatch (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:14:103)
+    at _next (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:194)
+    at /Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:97
+    at actionIndex (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:74:29)
+[2020-09-07T09:11:47.329] [ERROR] xht - TypeError: ctx.render2 is not a function
+    at _callee$ (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:9:30)
+    at tryCatch (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:14:103)
+    at _next (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:194)
+    at /Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:97
+    at actionIndex (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:74:29)
+[2020-09-07T09:11:49.107] [ERROR] xht - TypeError: ctx.render2 is not a function
+    at _callee$ (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:9:30)
+    at tryCatch (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:14:103)
+    at _next (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:194)
+    at /Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:16:97
+    at actionIndex (/Users/xiehaitao/Desktop/xht_BFF/xht_BFF/controllers/IndexController.js:74:29)

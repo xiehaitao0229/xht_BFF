@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图书列表</title>
+</head>
+
+<body>
+    {% for item in data -%}
+    <li>[[item.id]] [[item.name]]</li>
+    {%- endfor %}
+
+    <button id="btn">点击</button>
+
+    <script src="/js/myUnderscore.js"></script>
+    <script>
+        let btn = document.getElementById('btn');
+        function click(){
+            console.log(123)
+        }
+        let throlleClick = _.throttle(click,2000)
+        btn.addEventListener('click',throlleClick)
+    </script>
+</body>
+
+</html>

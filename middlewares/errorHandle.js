@@ -1,11 +1,13 @@
 class ErrorHandler {
-  static error(app) {
+  static error(app, logger) {
     //  全局错误处理
     app.use(async (ctx, next) => {
       //  处理500错误
       try {
         await next();
       } catch (e) {
+        // 错误日志记录
+        logger.error(e);
         ctx.body = "500请求报错，正在积极修复";
       }
     });
@@ -19,4 +21,4 @@ class ErrorHandler {
   }
 }
 
-module.exports = ErrorHandler;
+export default ErrorHandler;

@@ -1,10 +1,10 @@
-const Controller = require("./BaseController");
+import Controller from './BaseController'
 
 class ApiController extends Controller {
   constructor() {
     super();
   }
-  actionDataList(ctx) {
+  actionBooksList(ctx) {
     ctx.body = [
       {
         id: 1,
@@ -18,4 +18,4 @@ class ApiController extends Controller {
   }
 }
 
-module.exports = ApiController;
+export default ApiController;

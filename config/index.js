@@ -8,7 +8,7 @@ let config = {
 // 开发环境
 if (process.env.NODE_ENV === "development") {
   const devConfig = {
-    port: 3000,
+    port: 9999,
   };
   config = { ...config, ...devConfig };
 }
