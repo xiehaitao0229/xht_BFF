@@ -2,6 +2,7 @@
 一个基于nodeJs的BFF架构项目搭建
 
 第一阶段
+
 1、完善 mvc
 
 - 完善 models 
@@ -24,6 +25,7 @@ target： node
 gulp 打包我们的 node，生成 app.js koa-static -> 指向静态资源
 
 第二阶段①
+
     1、npm scripts
 
     - pre 生命周期
@@ -45,7 +47,7 @@ gulp 打包我们的 node，生成 app.js koa-static -> 指向静态资源
 
     3、jscpd 检查代码重复
 
-    也可以在 cli 中进行引入，对比多个文件中的重复率
+    - 也可以在 cli 中进行引入，对比多个文件中的重复率
 
     4、写 webpack
 
@@ -61,6 +63,7 @@ gulp 打包我们的 node，生成 app.js koa-static -> 指向静态资源
     - 打进去的位置不对，先将他 injected 删掉，然后手动去插入
 
 第二阶段②
+
     1、写 webpack 插件
 
     - 看一下插件是怎么写的
