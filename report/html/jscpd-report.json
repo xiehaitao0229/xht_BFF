@@ -1,0 +1,85 @@
+{
+  "statistics": {
+    "detectionDate": "2020-09-19T09:19:47.968Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "/Volumes/学习资料盘/21期学习笔记/BFF架构/xht_BFF/xht_BFF/test/test-jscpd.js": {
+            "lines": 32,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 58,
+            "duplicatedTokens": 476,
+            "percentage": 181.25,
+            "percentageTokens": 181.68,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 32,
+          "tokens": 262,
+          "sources": 1,
+          "clones": 1,
+          "duplicatedLines": 29,
+          "duplicatedTokens": 238,
+          "percentage": 90.63,
+          "percentageTokens": 90.84,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 32,
+      "tokens": 262,
+      "sources": 1,
+      "clones": 1,
+      "duplicatedLines": 29,
+      "duplicatedTokens": 238,
+      "percentage": 90.63,
+      "percentageTokens": 90.84,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "javascript",
+      "lines": 30,
+      "fragment": "function add(x, y) {\n  return x + y;\n}\nfunction add(x, y) {\n  return x + y;\n}\nfunction add(x, y) {\n  return x + y;\n}\nfunction add(x, y) {\n  return x + y;\n}\nfunction add(x, y) {\n  return x + y;\n}\nfunction add(x, y) {\n  return x + y;\n}\nfunction add(x, y) {\n  return x + y;\n}\nfunction add(x, y) {\n  return x + y;\n}\nfunction add(x, y) {\n  return x + y;\n}\nfunction add(x, y) {\n  return x + y;\n}",
+      "tokens": 0,
+      "firstFile": {
+        "name": "/Volumes/学习资料盘/21期学习笔记/BFF架构/xht_BFF/xht_BFF/test/test-jscpd.js",
+        "start": 4,
+        "end": 33,
+        "startLoc": {
+          "line": 4,
+          "column": 1,
+          "position": 24
+        },
+        "endLoc": {
+          "line": 33,
+          "column": 2,
+          "position": 262
+        }
+      },
+      "secondFile": {
+        "name": "/Volumes/学习资料盘/21期学习笔记/BFF架构/xht_BFF/xht_BFF/test/test-jscpd.js",
+        "start": 1,
+        "end": 12,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 12,
+          "column": 2,
+          "position": 94
+        }
+      }
+    }
+  ]
+}
